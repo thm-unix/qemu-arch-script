@@ -31,7 +31,7 @@ ttf-opensans xterm links
 
 
 # STEP 3: Chrooting to /mnt -> chroot.sh
-cat chroot.sh | chroot /mnt bash
+cat chroot.sh | arch-chroot /mnt bash
 
 
 # STEP 4: Unmounting & Reboot
