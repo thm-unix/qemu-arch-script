@@ -10,7 +10,7 @@
 
 
 # STEP 1: Installing bootloader
-grub-install /dev/vda
+grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/vda
 grub-mkconfig -o /boot/grub/grub.cfg
 
 
