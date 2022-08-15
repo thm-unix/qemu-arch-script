@@ -5,3 +5,8 @@ Do not use it for real installations. Please visit
 https://wiki.archlinux.org/title/installation_guide
 for Installation guide. I created this script for
 convenient installation on my VM.<br><br>
+
+
+## Prerequisites
+- QEMU virtual machine with EFI
+- QEMU hard drive (VirtIO) that has 10 GB capacity.
