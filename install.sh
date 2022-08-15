@@ -27,7 +27,7 @@ pacman -Syy
 pacstrap /mnt base base-devel linux linux-firmware linux-headers \
 nano vim bash-completion git networkmanager grub efivar efibootmgr \
 xorg sddm openbox ttf-ubuntu-font-family ttf-hack ttf-dejavu \
-ttf-opensans xterm
+ttf-opensans xterm links
 
 
 # STEP 3: Chrooting to /mnt -> chroot.sh
