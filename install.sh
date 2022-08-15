@@ -13,7 +13,7 @@
 # 10 GB capacity.
 sfdisk /dev/vda < partition_map.txt
 
-mkfs.vfat -F /dev/vda1
+mkfs.vfat /dev/vda1
 mkfs.ext4 -F /dev/vda2
 
 mount /dev/vda2 /mnt
