@@ -15,6 +15,6 @@ convenient installation on my VM.<br><br>
 ## Use (Arch Linux Live CD)
 `pacman -Sy git` <br>
 `git clone https://github.com/thm-unix/qemu-arch-script` <br>
-`cd qemu-arch-scripts` <br>
+`cd qemu-arch-script` <br>
 `chmod +x install.sh` <br>
 `./install.sh`
