@@ -1,18 +1,18 @@
 # qemu-arch-script
-This script created to quickly install Arch Linux
-on my QEMU virtual machine for testing software. 
+This script is created for quick installation of Arch Linux
+on my QEMU/KVM virtual machine for software testing purposes. 
 Do not use it for real installations. Please visit 
 https://wiki.archlinux.org/title/installation_guide
-for Installation guide. I created this script for
+for Installation guide. I created this script for the
 convenient installation on my VM.<br><br>
 
 
 ## Prerequisites
 - QEMU virtual machine with EFI
-- QEMU hard drive (VirtIO) that has 10 GB capacity.
+- 10 GB QEMU hard drive (VirtIO)
 
 
-## Use (Arch Linux Live CD)
+## Usage (Arch Linux Live CD)
 `pacman -Sy git` <br>
 `git clone https://github.com/thm-unix/qemu-arch-script` <br>
 `cd qemu-arch-script` <br>
